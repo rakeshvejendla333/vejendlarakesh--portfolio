@@ -4,7 +4,7 @@ export const Bio = {
     "Full Stack Developer",
     "cyber security",
     "UI/UX Designer",
-    "Data Analyst",
+    "prompt engineer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -86,7 +86,7 @@ export const skills = [
     ],
   },
   {
-    title: "Cloud/Devops",
+    title: "Cloud",
     skills: [
   
       {
@@ -104,6 +104,7 @@ export const skills = [
         image:
           "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
       },
+      /*
       {
         name: "Docker",
         image:
@@ -134,6 +135,7 @@ export const skills = [
         image:
           "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg",
       },
+      */
     ],
   },
   {
@@ -184,8 +186,7 @@ export const experiences = [
     company: "Perigord Data solutions Pvt. Ltd.",
     date: "Jan 2022 - Mar 2023",
     desc: "Experienced software developer proficient in AngularJS, C#, HTML, CSS, JavaScript, and Bootstrap. Skilled in front-end and back-end development with a proven track record of collaboration and problem-solving. Committed to continuous improvement and delivering high-quality software solutions....\n • Developed and maintained features using AngularJS for front-end and C#/.NET for back-end development.\n• Utilized HTML, CSS, JavaScript, and Bootstrap to create responsive and visually appealing user interfaces.\n• Integrated APIs, leveraging Swagger for documentation, to enhance product functionality and connectivity.\n• Collaborated on code development and version control using GitHub for efficient collaboration and management.\n• Proficient in understanding complex systems, implementing bug fixes, optimizations, and feature enhancements.\n• Debugged issues to identify and resolve root causes, ensuring smooth operation of software products.\n• Communicated effectively with teams and clients to address issues and prioritize tasks.\n• Maintained a knowledge base for issue resolution and conducted research to enhance data integrity and process efficiency.\n• Managed support tickets, maintenance tasks, and projects, while monitoring and optimizing SQL Server databases.\n• Provided comprehensive user support for change requests and troubleshooting, demonstrating strong troubleshooting skills and a proactive approach to issue resolution.",
-    skills: ["Postman API", "Microsoft SQL Server ","AngularJS","ASP.NET MVC","Devops",
-    ],
+    skills: ["Postman", ".NET Core","Angular","ASP.NET MVC","Microsoft Azure","Azure Devops"],
     doc: "",
   },
   {
