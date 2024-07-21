@@ -47,7 +47,7 @@ export const skills = [
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
       {
-        name: "AngularJS",
+        name: "Angular",
         image:
           "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
       },
@@ -142,7 +142,7 @@ export const skills = [
     title: "Others",
     skills: [
       {
-        name: "Git",
+        name: "GitLab",
         image:
           "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
       },
@@ -185,7 +185,7 @@ export const experiences = [
     role: "Software Developer",
     company: "Perigord Data solutions Pvt. Ltd.",
     date: "Jan 2022 - Mar 2023",
-    desc: "Experienced software developer proficient in AngularJS, C#, HTML, CSS, JavaScript, and Bootstrap. Skilled in front-end and back-end development with a proven track record of collaboration and problem-solving. Committed to continuous improvement and delivering high-quality software solutions....\n • Developed and maintained features using AngularJS for front-end and C#/.NET for back-end development.\n• Utilized HTML, CSS, JavaScript, and Bootstrap to create responsive and visually appealing user interfaces.\n• Integrated APIs, leveraging Swagger for documentation, to enhance product functionality and connectivity.\n• Collaborated on code development and version control using GitHub for efficient collaboration and management.\n• Proficient in understanding complex systems, implementing bug fixes, optimizations, and feature enhancements.\n• Debugged issues to identify and resolve root causes, ensuring smooth operation of software products.\n• Communicated effectively with teams and clients to address issues and prioritize tasks.\n• Maintained a knowledge base for issue resolution and conducted research to enhance data integrity and process efficiency.\n• Managed support tickets, maintenance tasks, and projects, while monitoring and optimizing SQL Server databases.\n• Provided comprehensive user support for change requests and troubleshooting, demonstrating strong troubleshooting skills and a proactive approach to issue resolution.",
+    desc: "Experienced software developer proficient in AngularJS, C#, HTML, CSS, JavaScript, and Bootstrap. Skilled in front-end and back-end development with a proven track record of collaboration and problem-solving. Committed to continuous improvement and delivering high-quality software solutions.\n • Developed and maintained features using AngularJS for front-end and C#/.NET for back-end development.\n• Utilized HTML, CSS, JavaScript, and Bootstrap to create responsive and visually appealing user interfaces.\n• Integrated APIs, leveraging Swagger for documentation, to enhance product functionality and connectivity.\n• Collaborated on code development and version control using GitHub for efficient collaboration and management.\n• Proficient in understanding complex systems, implementing bug fixes, optimizations, and feature enhancements.\n• Debugged issues to identify and resolve root causes, ensuring smooth operation of software products.\n• Communicated effectively with teams and clients to address issues and prioritize tasks.\n• Maintained a knowledge base for issue resolution and conducted research to enhance data integrity and process efficiency.\n• Managed support tickets, maintenance tasks, and projects, while monitoring and optimizing SQL Server databases.\n• Provided comprehensive user support for change requests and troubleshooting, demonstrating strong troubleshooting skills and a proactive approach to issue resolution.",
     skills: ["Postman", ".NET Core","Angular","ASP.NET MVC","Microsoft Azure","Azure Devops"],
     doc: "",
   },
@@ -194,7 +194,7 @@ export const experiences = [
     img: "",
     role: "Digital Marketing Specialist",
     company: "FreelanceFreelance",
-    date: "Aug 2021 - Dec 2021",
+    date: "Jun 2021 - Dec 2021",
     desc: "Working as a freelancer, I oversaw the enterprise's digital marketing strategies, established, maintained, and carried out SEO and affiliate social media programs, controlled and organized database systems, Excel, Photoshop, and PowerPoint, and performed designing functionalities. In charge of social media marketing initiatives to increase brand recognition.",
     skills: ["Adobe Photoshop" ,"Search Engine Optimization (SEO)","WordPress", "Microsoft Office",
     ],
