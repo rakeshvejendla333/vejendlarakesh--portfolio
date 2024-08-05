@@ -1,5 +1,5 @@
 export const Bio = {
-  name: "Vejendla Rakesh",
+  name: "Rakesh Vejendla",
   roles: [
     "Full Stack Developer",
     "cyber security",
@@ -7,7 +7,7 @@ export const Bio = {
     "prompt engineer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a graduate master's student from Northwest Missouri State University, having completed my master's degree in Information Systems. With a solid background as both a Junior Software Developer and a cybersecurity analyst, I bring a unique blend of expertise in backend and web technologies along with robust skills in cybersecurity. As a Full-Stack Developer with over 3 years of experience, I specialize in backend development with C# and front-end technologies including HTML, CSS, JavaScript, Bootstrap, and Angular. I excel in API integration and database management with SQL. Additionally, I have a 6-month tenure as a cybersecurity analyst. My skill set includes working with AI tools such as ChatGPT, Midjourney, and DALL-E 3, alongside various APIs.",
   /*github: "./",
   resume:
     "/", 
@@ -71,6 +71,11 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
+        name: "GraphQL",
+        image:
+          "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+      },
+      {
         name: "Java",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
@@ -86,24 +91,30 @@ export const skills = [
     ],
   },
   {
-    title: "Cloud",
+    title: "cybersecurity",
     skills: [
   
       {
-        name: "AWS",
+        name: "Splunk",
         image:
-          "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
+          "https://www.vectorlogo.zone/logos/splunk/splunk-icon.svg",
       },
       {
-        name: "AZURE",
+        name: "SIEM",
         image:
-          "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg",
+          "https://www.vectorlogo.zone/logos/siemens/siemens-icon.svg",
       },
       {
-        name: "GCP",
+        name: "ServiceNow",
         image:
-          "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
+          "https://www.vectorlogo.zone/logos/servicenow/servicenow-icon.svg",
       },
+      {
+        name: "Wireshark",
+        image:
+          "https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg",
+      },
+      
       /*
       {
         name: "Docker",
@@ -136,6 +147,27 @@ export const skills = [
           "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg",
       },
       */
+    ],
+  },
+  {
+    title: "Cloud",
+    skills: [
+  
+      {
+        name: "AWS",
+        image:
+          "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
+      },
+      {
+        name: "AZURE",
+        image:
+          "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg",
+      },
+      {
+        name: "GCP",
+        image:
+          "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
+      },
     ],
   },
   {
@@ -182,21 +214,31 @@ export const experiences = [
   {
     id: 0,
     img:"",
+    role: "Intern",
+    company: "Perigord Data solutions Pvt. Ltd.",
+    date: "Jun2023 - Jun 2024",
+    desc: "Microsoft Azure: Proficient in deploying, managing, and scaling applications on Azure, leveraging its cloud services to optimize performance and cost.\nC#: Skilled in using C# for developing efficient and scalable applications, ensuring high performance and maintainability.\nCybersecurity: Experienced in implementing security measures and protocols to protect data and systems from cyber threats, including penetration testing and vulnerability assessments.\nAngular: Competent in using Angular for building dynamic and responsive web applications, providing seamless user experiences.\nProofpoint: Knowledgeable in utilizing Proofpoint for advanced threat protection and email security, safeguarding organizational communication.\nServiceNow: Proficient in using ServiceNow for IT service management, automating workflows, and improving service delivery.\nCrowdstrike Falcon: Experienced in employing Crowdstrike Falcon for endpoint protection, threat intelligence, and proactive cybersecurity measures.\nPenetration Testing: Skilled in conducting penetration tests to identify and address security vulnerabilities, enhancing the overall security posture.\nMySQL: Adept at managing and optimizing MySQL databases for efficient data storage and retrieval, ensuring data integrity and performance.\nSoftware Development Life Cycle (SDLC): Familiar with all phases of SDLC, from requirements gathering to deployment and maintenance, ensuring the delivery of high-quality software products.",
+    skills: ["C#", " Angular ","Proofpoint","ServiceNow","Microsoft Azure","Azure Devops","Penetration Testing", "Software Development Life Cycle (SDLC)", "MySQL",],
+    doc: "",
+  },
+  {
+    id: 0,
+    img:"",
     role: "Software Developer",
     company: "Perigord Data solutions Pvt. Ltd.",
     date: "Jan 2022 - Mar 2023",
-    desc: "Experienced software developer proficient in AngularJS, C#, HTML, CSS, JavaScript, and Bootstrap. Skilled in front-end and back-end development with a proven track record of collaboration and problem-solving. Committed to continuous improvement and delivering high-quality software solutions.\n • Developed and maintained features using AngularJS for front-end and C#/.NET for back-end development.\n• Utilized HTML, CSS, JavaScript, and Bootstrap to create responsive and visually appealing user interfaces.\n• Integrated APIs, leveraging Swagger for documentation, to enhance product functionality and connectivity.\n• Collaborated on code development and version control using GitHub for efficient collaboration and management.\n• Proficient in understanding complex systems, implementing bug fixes, optimizations, and feature enhancements.\n• Debugged issues to identify and resolve root causes, ensuring smooth operation of software products.\n• Communicated effectively with teams and clients to address issues and prioritize tasks.\n• Maintained a knowledge base for issue resolution and conducted research to enhance data integrity and process efficiency.\n• Managed support tickets, maintenance tasks, and projects, while monitoring and optimizing SQL Server databases.\n• Provided comprehensive user support for change requests and troubleshooting, demonstrating strong troubleshooting skills and a proactive approach to issue resolution.",
-    skills: ["Postman", ".NET Core","Angular","ASP.NET MVC","Microsoft Azure","Azure Devops"],
+    desc: "Experienced software developer proficient in AngularJS, C#, HTML, CSS, JavaScript, and Bootstrap. Skilled in front-end and back-end development with a proven track record of collaboration and problem-solving. Committed to continuous improvement and delivering high-quality software solutions.\n Developed and maintained features using AngularJS for front-end and C#/.NET for back-end development.\nUtilized HTML, CSS, JavaScript, and Bootstrap to create responsive and visually appealing user interfaces.\nIntegrated APIs, leveraging Swagger for documentation, to enhance product functionality and connectivity.\nCollaborated on code development and version control using GitHub for efficient collaboration and management.\nProficient in understanding complex systems, implementing bug fixes, optimizations, and feature enhancements.\nDebugged issues to identify and resolve root causes, ensuring smooth operation of software products.\nCommunicated effectively with teams and clients to address issues and prioritize tasks.\nMaintained a knowledge base for issue resolution and conducted research to enhance data integrity and process efficiency.\nManaged support tickets, maintenance tasks, and projects, while monitoring and optimizing SQL Server databases.\nProvided comprehensive user support for change requests and troubleshooting, demonstrating strong troubleshooting skills and a proactive approach to issue resolution.",
+    skills: ["Postman", ".NET Core","Angular","ASP.NET MVC","Microsoft SQL Server","JavaScript","GitHub"," Entity Framework", "SQL", "Angular", "Visual Studio", "C#", "Postman", "Bootstrap (Framework)", "html", "css", "javascript",  "Azure", ],
     doc: "",
   },
   {
     id: 0,
     img: "",
-    role: "Digital Marketing Specialist",
-    company: "FreelanceFreelance",
+    role: "Web Developer",
+    company: "Freelance",
     date: "Jun 2021 - Dec 2021",
-    desc: "Working as a freelancer, I oversaw the enterprise's digital marketing strategies, established, maintained, and carried out SEO and affiliate social media programs, controlled and organized database systems, Excel, Photoshop, and PowerPoint, and performed designing functionalities. In charge of social media marketing initiatives to increase brand recognition.",
-    skills: ["Adobe Photoshop" ,"Search Engine Optimization (SEO)","WordPress", "Microsoft Office",
+    desc: "As a Freelance Web Developer, I have been responsible for various tasks across multiple websites, ensuring high performance and user engagement.\n My role includes:\nDigital Marketing Strategies: \n Developed and executed comprehensive digital marketing strategies to boost online presence and drive traffic.\nSEO and Affiliate Social Media Programs: Established, maintained, and managed SEO campaigns and affiliate social media programs to improve search engine rankings and broaden reach.\nDatabase Systems Management: Controlled and organized database systems to ensure efficient data storage, retrieval, and security.\nSoftware Tools Proficiency:\nMicrosoft Excel: Utilized for data analysis and visualization.\nAdobe Photoshop: Employed for graphic design and image editing.\nMicrosoft PowerPoint: Created presentations for various marketing and design proposals.\nDesigning Functionalities: Performed designing functionalities to enhance website aesthetics and user experience.\nSocial Media Marketing: Led social media marketing initiatives to increase brand recognition and engagement across platforms.\nWebsite Development Skills:\nWordPress: Expert in creating and managing WordPress sites.HTML, CSS, JavaScript: Proficient in coding and developing responsive websites.\nBootstrap (Framework): Utilized Bootstrap for responsive and mobile-first web development.\nSoftware Development Life Cycle (SDLC): Applied SDLC methodologies to ensure systematic and efficient software development.\nDynamic Web Pages: Developed dynamic web pages with interactive features and functionalities.\nDesign in Figma: Created and designed web interfaces in Figma based on client requirements.\nDropdown Boxes and Data Filtering: Implemented dropdown boxes and data filtering for enhanced user interactivity and data management.\n3D Models and Graphics: Integrated 3D models and graphics to provide an immersive user experience.\nAI Generation: Leveraged AI generation tools to create innovative and engaging web content.",
+    skills: ["Adobe Photoshop","Search Engine Optimization(SEO)","WordPress","Microsoft Office","HTML","css","javascipt","Bootstrap (Framework)","Software Development Life Cycle (SDLC)",
     ],
     doc: "",
   },
@@ -274,7 +316,7 @@ export const education = [
     school: "Nortwest Missouri State University",
     date: "May 2023 - June 2024",
     grade: "3.5 CGPA",
-    desc: "I am currently pursuing a Master's degree in Information Systems at Nortwest Missouri State University, Missouri(Maryville). I have completed 2 semesters and have a CGPA of 3.5. I have taken courses in Business Analysis, Project managament, Object-Oriented Programming, Database Management Systems, Information Systems and Design and  among others.",
+    desc: "I have graduated with a Master's degree in Information Systems from Northwest Missouri State University, Missouri (Maryville). I have taken courses in Business Analysis, Project Management, Object-Oriented Programming, Database Management Systems, Information Systems and Design, Cybersecurity, and Enterprise Network among others.",
     degree: "",
   },
   {
@@ -283,7 +325,7 @@ export const education = [
     school: "QIS College of Engineering and Technology",
     date: "June 2017 - Aug 2021",
     grade: "75%",
-    desc: "I completed my Bachelor's degree in Infromation Technology and Engineering at QIS College of Engineering and Technology, Ongole. I have a CGPA of 7.77. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "I completed my Bachelor's degree in Infromation Technology and Engineering at QIS College of Engineering and Technology. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Information and Technology and Engineering",
   },
   /*
