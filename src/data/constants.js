@@ -171,6 +171,37 @@ export const skills = [
     ],
   },
   {
+    title: "AI",
+    skills: [
+  
+      {
+        name: "ChatGPT",
+        image:
+          "",
+      },
+      {
+        name: "Midjourney",
+        image:
+          "",
+      },
+      {
+        name: "DALL-E 3",
+        image:
+          "",
+      },
+      {
+        name: "Generative AI",
+        image:
+          "",
+      },
+      {
+        name: "Computer Vision",
+        image:
+          "",
+      },
+    ],
+  },
+  {
     title: "Others",
     skills: [
       {
