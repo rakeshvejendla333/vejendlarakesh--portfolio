@@ -47,9 +47,6 @@ const HeroSection = () => {
                             <SocialMediaIcon href="https://www.linkedin.com/in/vejendlarakesh/" target="_blank">
                                 <FaLinkedin />
                             </SocialMediaIcon>
-                            <SocialMediaIcon href="https://drive.google.com/file/d/10j4POJI6gSpmYu9N7MxyxN-CSZDGd21u/view?usp=sharing" target="_blank" download>
-                                <FaDownload />
-                            </SocialMediaIcon>
                         </SocialMediaIcons>
                     </HeroLeftContainer>
                     <HeroRightContainer id="Right">
