@@ -100,7 +100,7 @@ function Footer() {
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Vejendla Rakesh. All rights reserved.
+          &copy; 2025 Vejendla Rakesh. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
