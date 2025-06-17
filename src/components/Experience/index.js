@@ -77,7 +77,7 @@ const ExperienceSection = () => {
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
-                    My work experience as a software Developer & cybersecurity and working on different companies and projects.
+                   I have 5+ years of professional experience working across multiple companies and projects as a Full Stack Developer, delivering scalable web applications and AI-powered solutions.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
