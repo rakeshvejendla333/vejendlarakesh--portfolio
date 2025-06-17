@@ -2,12 +2,11 @@ export const Bio = {
   name: "Rakesh Vejendla",
   roles: [
     "Full Stack Developer",
-    "cyber security",
     "UI/UX Designer",
     "prompt engineer",
   ],
   description:
-    "I am a graduate master's student from Northwest Missouri State University, having completed my master's degree in Information Systems. With a solid background as both a Junior Software Developer and a cybersecurity analyst, I bring a unique blend of expertise in backend and web technologies along with robust skills in cybersecurity. As a Full-Stack Developer with over 4 years of experience, I specialize in backend development with C# and front-end technologies including HTML, CSS, JavaScript, Bootstrap, and Angular. I excel in API integration and database management with SQL. Additionally, I have a 6-month tenure as a cybersecurity analyst. My skill set includes working with AI tools such as ChatGPT, Midjourney, and DALL-E 3, alongside various APIs.",
+    "Full Stack Developer with 5+ years of experience building scalable web applications using Node.js, React.js, .NET, and MySQL. Proven expertise in REST APIs, Redis caching, real-time systems with WebSockets, and cloud deployment on Microsoft Azure. Strong background in building secure, modular backends, dynamic dashboards, and role-based access control systems. Skilled in version control, automation, and integrating AI-powered features using OpenAI APIs. Passionate about delivering high-quality software solutions with a focus on performance, maintainability, and user experience.",
   /*github: "./",
   resume:
     "/", 
@@ -22,323 +21,129 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-      {
-        name: "Angular",
-        image:
-          "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
-      },
+      { name: "React.js", image: "https://reactjs.org/logo-og.png" },
+      { name: "Redux", image: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" },
+      { name: "Angular", image: "https://www.vectorlogo.zone/logos/angular/angular-icon.svg" },
+      { name: "Bootstrap", image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" },
+      { name: "Tailwind CSS", image: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
+      { name: "HTML5", image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" },
+      { name: "CSS3", image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" },
+      { name: "JavaScript", image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" },
     ],
   },
   {
     title: "Backend",
     skills: [
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "GraphQL",
-        image:
-          "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-      },
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-      {
-        name: "C#",
-        image: "https://www.vectorlogo.zone/logos/cnet/cnet-icon.svg",
-      },
+      { name: "Node.js", image: "https://nodejs.org/static/images/logo.svg" },
+      { name: "Express.js", image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" },
+      { name: ".NET Core", image: "https://www.vectorlogo.zone/logos/dotnet/dotnet-icon.svg" },
+      { name: "C#", image: "https://www.vectorlogo.zone/logos/cnet/cnet-icon.svg" },
+      { name: "Python", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
+      { name: "REST APIs", image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
+      { name: "WebSockets", image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/WebSockets_logo.svg" },
     ],
   },
   {
-    title: "cybersecurity",
+    title: "Database",
     skills: [
-  
-      {
-        name: "Splunk",
-        image:
-          "https://www.vectorlogo.zone/logos/splunk/splunk-icon.svg",
-      },
-      {
-        name: "SIEM",
-        image:
-          "https://www.vectorlogo.zone/logos/siemens/siemens-icon.svg",
-      },
-      {
-        name: "ServiceNow",
-        image:
-          "https://www.vectorlogo.zone/logos/servicenow/servicenow-icon.svg",
-      },
-      {
-        name: "Wireshark",
-        image:
-          "https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg",
-      },
-      
-      /*
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      {
-        name: "Jenkins",
-        image:
-          "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg",
-      },
-      {
-        name: "Ansible",
-        image:
-          "https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg",
-      },
-      {
-        name: "Kubernetes",
-        image:
-          "https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg",
-      },
-      {
-        name: "Terraform",
-        image:
-          "https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg",
-      },
-      {
-        name: "OpenShift",
-        image:
-          "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg",
-      },
-      */
+      { name: "MySQL", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" },
+      { name: "SQL Server", image: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" },
+      { name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
+      { name: "Redis", image: "https://www.vectorlogo.zone/logos/redis/redis-icon.svg" },
     ],
   },
   {
-    title: "Cloud",
+    title: "Cloud & DevOps",
     skills: [
-  
-      {
-        name: "AWS",
-        image:
-          "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
-      },
-      {
-        name: "AZURE",
-        image:
-          "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg",
-      },
-      {
-        name: "GCP",
-        image:
-          "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
-      },
+      { name: "Microsoft Azure", image: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" },
+      { name: "AWS", image: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" },
+      { name: "Nodemon", image: "https://seeklogo.com/images/N/nodemon-logo-334ADF1B4B-seeklogo.com.png" },
     ],
   },
   {
-    title: "AI",
+    title: "Tools & Utilities",
     skills: [
-  
-      {
-        name: "ChatGPT",
-        image:
-          "",
-      },
-      {
-        name: "Midjourney",
-        image:
-          "",
-      },
-      {
-        name: "DALL-E 3",
-        image:
-          "",
-      },
-      {
-        name: "Generative AI",
-        image:
-          "",
-      },
-      {
-        name: "Computer Vision",
-        image:
-          "",
-      },
+      { name: "GitHub", image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" },
+      { name: "Postman", image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
+      { name: "Swagger", image: "https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg" },
+      { name: "JIRA", image: "https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/favicon.png" },
+      { name: "Lucidchart", image: "https://www.vectorlogo.zone/logos/lucidchart/lucidchart-icon.svg" },
+      { name: "Visual Studio Code", image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" },
     ],
   },
   {
-    title: "Others",
+    title: "Design & CMS",
     skills: [
-      {
-        name: "GitLab",
-        image:
-          "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-    
-      {
-        name: "Postman",
-        image:
-          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-      },
-   
-      {
-        name: "WordPress",
-        image:
-          "https://www.vectorlogo.zone/logos/wordpress/wordpress-icon.svg",
-      },
-      {
-        name: "Jupiter",
-        image:
-          "https://www.vectorlogo.zone/logos/jupyter/jupyter-icon.svg",
-      },
-  
-      {
-        name: "Figma",
-        image:
-          "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
-      },
+      { name: "WordPress", image: "https://www.vectorlogo.zone/logos/wordpress/wordpress-icon.svg" },
+      { name: "Canva", image: "https://www.vectorlogo.zone/logos/canva/canva-icon.svg" },
+      { name: "After Effects", image: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Adobe_After_Effects_CC_icon.svg" },
     ],
   },
+  {
+  title: "AI & Emerging Tech",
+  skills: [
+    { name: "OpenAI (ChatGPT API)", image: "https://seeklogo.com/images/O/openai-logo-8B9BFEDC26-seeklogo.com.png" },
+    { name: "Prompt Engineering", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Prompt.svg/2048px-Prompt.svg.png" },
+    { name: "Generative AI", image: "https://miro.medium.com/v2/resize:fit:1200/1*uSGU7z-QeUlS4RpHqz1D5A.png" },
+    { name: "Computer Vision (OpenCV)", image: "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" },
+    { name: "LLMs (GPT, Claude, etc.)", image: "https://avatars.githubusercontent.com/u/158598618?s=200&v=4" },
+    { name: "DALL·E 3", image: "https://openai.com/content/images/2023/10/dalle-3.png" },
+    { name: "Midjourney", image: "https://seeklogo.com/images/M/midjourney-logo-23DC4153F4-seeklogo.com.png" },
+  ],
+},
+
 ];
+
 
 export const experiences = [
   {
-    id: 0,
-    img:"",
-    role: "Intern",
-    company: "Perigord Data solutions Pvt. Ltd.",
-    date: "Jun2023 - Jun 2024",
-    desc: "Microsoft Azure: Proficient in deploying, managing, and scaling applications on Azure, leveraging its cloud services to optimize performance and cost.\nC#: Skilled in using C# for developing efficient and scalable applications, ensuring high performance and maintainability.\nCybersecurity: Experienced in implementing security measures and protocols to protect data and systems from cyber threats, including penetration testing and vulnerability assessments.\nAngular: Competent in using Angular for building dynamic and responsive web applications, providing seamless user experiences.\nProofpoint: Knowledgeable in utilizing Proofpoint for advanced threat protection and email security, safeguarding organizational communication.\nServiceNow: Proficient in using ServiceNow for IT service management, automating workflows, and improving service delivery.\nCrowdstrike Falcon: Experienced in employing Crowdstrike Falcon for endpoint protection, threat intelligence, and proactive cybersecurity measures.\nPenetration Testing: Skilled in conducting penetration tests to identify and address security vulnerabilities, enhancing the overall security posture.\nMySQL: Adept at managing and optimizing MySQL databases for efficient data storage and retrieval, ensuring data integrity and performance.\nSoftware Development Life Cycle (SDLC): Familiar with all phases of SDLC, from requirements gathering to deployment and maintenance, ensuring the delivery of high-quality software products.",
-    skills: ["C#", " Angular ","Proofpoint","ServiceNow","Microsoft Azure","Azure Devops","Penetration Testing", "Software Development Life Cycle (SDLC)", "MySQL",],
-    doc: "",
-  },
-  {
-    id: 0,
-    img:"",
-    role: "Junior Software Developer",
-    company: "Perigord Data solutions Pvt. Ltd.",
-    date: " Aug2021 - Mar 2023",
-    desc: "Experienced software developer proficient in AngularJS, C#, HTML, CSS, JavaScript, and Bootstrap. Skilled in front-end and back-end development with a proven track record of collaboration and problem-solving. Committed to continuous improvement and delivering high-quality software solutions.\n Developed and maintained features using AngularJS for front-end and C#/.NET for back-end development.\nUtilized HTML, CSS, JavaScript, and Bootstrap to create responsive and visually appealing user interfaces.\nIntegrated APIs, leveraging Swagger for documentation, to enhance product functionality and connectivity.\nCollaborated on code development and version control using GitHub for efficient collaboration and management.\nProficient in understanding complex systems, implementing bug fixes, optimizations, and feature enhancements.\nDebugged issues to identify and resolve root causes, ensuring smooth operation of software products.\nCommunicated effectively with teams and clients to address issues and prioritize tasks.\nMaintained a knowledge base for issue resolution and conducted research to enhance data integrity and process efficiency.\nManaged support tickets, maintenance tasks, and projects, while monitoring and optimizing SQL Server databases.\nProvided comprehensive user support for change requests and troubleshooting, demonstrating strong troubleshooting skills and a proactive approach to issue resolution.",
-    skills: ["Postman", ".NET Core","Angular","ASP.NET MVC","Microsoft SQL Server","JavaScript","GitHub"," Entity Framework", "SQL", "Angular", "Visual Studio", "C#", "Postman", "Bootstrap (Framework)", "html", "css", "javascript",  "Azure", ],
-    doc: "",
-  },
-  {
-    id: 0,
-    img: "",
-    role: "Intern",
-    company: "Gavita Soft Web Designing Services",
-    date: "Aug 2020 - Aug 2021",
-    desc: "As a Web Developer, I have been responsible for various tasks across multiple websites, ensuring high performance and user engagement.\n My role includes:\nDigital Marketing Strategies: \n Developed and executed comprehensive digital marketing strategies to boost online presence and drive traffic.\nSEO and Affiliate Social Media Programs: Established, maintained, and managed SEO campaigns and affiliate social media programs to improve search engine rankings and broaden reach.\nDatabase Systems Management: Controlled and organized database systems to ensure efficient data storage, retrieval, and security.\nSoftware Tools Proficiency:\nMicrosoft Excel: Utilized for data analysis and visualization.\nAdobe Photoshop: Employed for graphic design and image editing.\nMicrosoft PowerPoint: Created presentations for various marketing and design proposals.\nDesigning Functionalities: Performed designing functionalities to enhance website aesthetics and user experience.\nSocial Media Marketing: Led social media marketing initiatives to increase brand recognition and engagement across platforms.\nWebsite Development Skills:\nWordPress: Expert in creating and managing WordPress sites.HTML, CSS, JavaScript: Proficient in coding and developing responsive websites.\nBootstrap (Framework): Utilized Bootstrap for responsive and mobile-first web development.\nSoftware Development Life Cycle (SDLC): Applied SDLC methodologies to ensure systematic and efficient software development.\nDynamic Web Pages: Developed dynamic web pages with interactive features and functionalities.\nDesign in Figma: Created and designed web interfaces in Figma based on client requirements.\nDropdown Boxes and Data Filtering: Implemented dropdown boxes and data filtering for enhanced user interactivity and data management.\n3D Models and Graphics: Integrated 3D models and graphics to provide an immersive user experience.\nAI Generation: Leveraged AI generation tools to create innovative and engaging web content.",
-    skills: ["Adobe Photoshop","Search Engine Optimization(SEO)","WordPress","Microsoft Office","HTML","css","javascipt","Bootstrap (Framework)","Software Development Life Cycle (SDLC)",
-    ],
-    doc: "",
-  },
-  /*
-  {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    role: "Full Stack Intern",
+    company: "Nebraska Innovation Labs",
+    date: "Jan 2025 – Present",
+    desc: "Developed full-stack applications using Node.js, React.js, Redux, and MySQL. Integrated Redis for caching and performance boosts, and implemented WebSocket-based real-time features. Created admin dashboards with React Table and Tailwind CSS. Built an audit log system using MySQL triggers, set up role-based access control, and structured modular backend using Express.js and feature toggles. Implemented robust form validations, middleware protection against SQL injection and XSS, and static pages for FAQ and dashboard. Used GitHub for version control and Postman for API testing.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
+      "Node.js", "React.js", "Redux", "MySQL", "Redis", "Express.js", 
+      "WebSockets", "Tailwind CSS", "RBAC", "Audit Logs", "Postman", 
+      "Nodemon", ".env", "GitHub", "React Table", "Swagger"
     ],
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributing to different open-source projects and learn from industry experts",
-    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+    role: "Research Assistant",
+    company: "Northwest Missouri State University",
+    date: "Aug 2023 – Jun 2024",
+    desc: "Built and deployed AI-powered chatbots using React.js and OpenAI APIs. Developed backend services in Python and hosted them on Microsoft Azure, reducing costs by 15%. Created form-validated UIs with Bootstrap and integrated REST APIs for interactive learning features. Designed architecture diagrams using Lucidchart and documented systems in Markdown. Supported academic research through technical writing and sprint planning.",
+    skills: [
+      "React.js", "OpenAI API", "Python", "Microsoft Azure", "REST APIs",
+      "Bootstrap", "Markdown", "Lucidchart", "GitHub"
+    ],
   },
   {
     id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+    role: "Software Developer",
+    company: "Perigord Life Science Solutions",
+    date: "Aug 2021 – Mar 2023",
+    desc: "Developed responsive UI using Angular, HTML, CSS, and Bootstrap. Integrated backend APIs using .NET Core and C#, and tested them with Swagger and Postman. Managed SQL Server performance via optimized queries and stored procedures. Delivered complex dropdown forms, dynamic layouts, and schedule-based automation logic. Participated in daily standups and sprint planning with JIRA, and supported CI/CD through Azure DevOps.",
     skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
+      "Angular", "C#", ".NET Core", "ASP.NET", "SQL Server", 
+      "Bootstrap", "Postman", "Swagger", "GitHub", "Azure DevOps", 
+      "JIRA", "HTML", "CSS", "JavaScript"
     ],
   },
   {
     id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
+    role: "Intern",
+    company: "Gavita Soft Web Designing Services",
+    date: "Aug 2020 – Aug 2021",
+    desc: "Worked on web development and digital marketing. Built responsive websites using HTML, CSS, JavaScript, and Bootstrap. Managed content via WordPress and designed marketing creatives using Canva and After Effects. Implemented SEO strategies and improved brand visibility across social media. Created animated explainer videos and collaborated on UI design in Figma.",
     skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
+      "HTML", "CSS", "JavaScript", "Bootstrap", "WordPress", 
+      "SEO", "Canva", "After Effects", "Figma", "Social Media Marketing"
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  },
-  */
+  }
 ];
+
 
 export const education = [
   {
