@@ -246,7 +246,7 @@ export const certifications = [
     issuer: "Amazon Web Services",
     date: "2024",
     image: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
-    link: "https://aws.amazon.com/certification/",
+    link: "https://www.credly.com/badges/751f9581-c636-428d-9ce0-8d39901bc6c5/linked_in_profile",
   },
   {
     id: 1,
@@ -254,7 +254,7 @@ export const certifications = [
     issuer: "Microsoft",
     date: "2023",
     image: "https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg",
-    link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    link: "https://www.freecodecamp.org/certification/fccd94f4e9b-3e0f-44b9-8730-aa0c4bd271f3/foundational-c-sharp-with-microsoft",
   },
 ];
 
