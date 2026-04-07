@@ -1,18 +1,18 @@
 export const Bio = {
   name: "Rakesh Vejendla",
   roles: [
-    "Full Stack Developer",
+    "AI Engineer",
     "Mobile App Developer",
-    "Software Engineer",
+    "Full Stack Developer",
   ],
   description:
-    "Full Stack Developer with strong hands-on experience building scalable web and mobile applications using React Native, Expo, Node.js, MySQL, and cloud deployment platforms. Proven ability to deliver end-to-end solutions including backend APIs, mobile UI, and production deployments. Experienced in cross-platform Android and iOS development, modern DevOps workflows, and collaborative Agile environments.",
+    "AI Full Stack Engineer with 3+ years of experience building scalable web and mobile applications using React.js, Node.js, and MySQL. Expertise in designing REST APIs, implementing JWT/OAuth authentication, RBAC, and optimizing backend performance with Redis. Experienced in deploying on AWS, Azure, and Railway, with hands-on AI integration using LLM APIs to automate workflows and enhance user experiences.",
   github: "https://github.com/rakeshvejendla333",
-  resume: "https://www.rakeshvejendla.com", 
+  resume: "https://drive.google.com/file/d/1iZmfYXwBf8bsI0O8gobnB4_necdO3WR8/view",
   linkedin: "https://www.linkedin.com/in/vejendlarakesh",
+  twitter: "https://twitter.com/",
   insta: "https://www.instagram.com/",
   facebook: "https://www.facebook.com/",
-  twitter: "https://twitter.com/",
 };
 
 export const skills = [
@@ -20,57 +20,67 @@ export const skills = [
     title: "Frontend",
     skills: [
       { name: "React.js", image: "https://reactjs.org/logo-og.png" },
-      { name: "React Native", image: "https://reactnative.dev/img/header_logo.svg" },
-      { name: "Expo", image: "https://www.vectorlogo.zone/logos/expo/expo-icon.svg" },
+      { name: "React Native (Expo)", image: "https://reactnative.dev/img/header_logo.svg" },
       { name: "Redux", image: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" },
       { name: "Angular", image: "https://www.vectorlogo.zone/logos/angular/angular-icon.svg" },
-      { name: "Bootstrap", image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" },
       { name: "Tailwind CSS", image: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
+      { name: "TypeScript", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
+      { name: "JavaScript", image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" },
       { name: "HTML5", image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" },
       { name: "CSS3", image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" },
-      { name: "JavaScript", image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" },
-      { name: "TypeScript", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
+      { name: "Bootstrap", image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" },
     ],
   },
   {
-    title: "Backend",
+    title: "Backend & APIs",
     skills: [
       { name: "Node.js", image: "https://nodejs.org/static/images/logo.svg" },
       { name: "Express.js", image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" },
+      { name: "FastAPI", image: "https://cdn.worldvectorlogo.com/logos/fastapi.svg" },
       { name: ".NET Core", image: "https://www.vectorlogo.zone/logos/dotnet/dotnet-icon.svg" },
       { name: "C#", image: "https://www.vectorlogo.zone/logos/cnet/cnet-icon.svg" },
       { name: "Python", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
-      { name: "FastAPI", image: "https://cdn.worldvectorlogo.com/logos/fastapi.svg" },
       { name: "REST APIs", image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
       { name: "WebSockets", image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/WebSockets_logo.svg" },
     ],
   },
   {
-    title: "Database",
+    title: "Databases & Caching",
     skills: [
       { name: "MySQL", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" },
       { name: "SQL Server", image: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" },
-      { name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
+      { name: "Firebase Firestore", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
       { name: "Redis", image: "https://www.vectorlogo.zone/logos/redis/redis-icon.svg" },
     ],
   },
   {
     title: "Cloud & DevOps",
     skills: [
-      { name: "Microsoft Azure", image: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" },
       { name: "AWS", image: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" },
-      { name: "Git", image: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" },
-      { name: "GitHub", image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" },
+      { name: "Microsoft Azure", image: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" },
+      { name: "Railway", image: "https://railway.app/brand/logo-light.svg" },
       { name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" },
+      { name: "Git & GitHub", image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" },
+      { name: "CI/CD", image: "https://www.vectorlogo.zone/logos/github/github-icon.svg" },
     ],
   },
   {
-    title: "Tools & Others",
+    title: "AI & Integration",
     skills: [
+      { name: "OpenAI API", image: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" },
+      { name: "LLM APIs", image: "https://www.vectorlogo.zone/logos/google/google-icon.svg" },
+      { name: "Prompt Engineering", image: "https://cdn.worldvectorlogo.com/logos/fastapi.svg" },
+      { name: "RAG (Foundational)", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
+    ],
+  },
+  {
+    title: "Security & Tools",
+    skills: [
+      { name: "JWT / OAuth", image: "https://www.vectorlogo.zone/logos/auth0/auth0-icon.svg" },
+      { name: "RBAC", image: "https://www.vectorlogo.zone/logos/auth0/auth0-icon.svg" },
       { name: "Postman", image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
       { name: "Swagger", image: "https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg" },
       { name: "JIRA", image: "https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/favicon.png" },
-      { name: "Lucidchart", image: "https://www.vectorlogo.zone/logos/lucidchart/lucidchart-icon.svg" },
     ],
   },
 ];
@@ -78,58 +88,57 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    role: "Senior Full Stack Developer",
-    company: "Tek Advo Inc - Remote",
+    role: "AI Full Stack Engineer",
+    company: "Tek Advo Inc – Remote",
     date: "Nov 2025 – Present",
-    desc: "Leading end-to-end development of cross-platform mobile applications using React Native with Expo, delivering fully functional apps for both Android and iOS. Built scalable backend services using Node.js and Express.js, with MySQL as the primary database for transactional and relational data. Designed and implemented RESTful APIs to support mobile app workflows, authentication, and business logic. Deployed backend services on Railway, managing environment variables, database connections, and production builds. Integrated GitHub-based version control, following branch strategies and clean commit practices for team collaboration.",
+    desc: "Led end-to-end development of cross-platform applications across web and mobile, delivering production-ready solutions for Android, iOS, and browser platforms.\nBuilt SplitTek — a full-stack expense-sharing app (similar to Splitwise) with React Native (Expo) for Android/iOS and Node.js backend; implemented group expense tracking, real-time balance calculations, and biometric login.\nBuilt FindStreak — an AI-powered job platform with user workflows, authentication, and scalable backend architecture.\nDesigned and developed scalable REST APIs using Node.js and Express.js with JWT, OAuth, and RBAC.\nIntegrated LLM APIs to enable conversational AI workflows, automated responses, and intelligent user interactions.\nOptimized backend performance using Redis caching, reducing API response times significantly.\nDeployed and managed apps on Railway and AWS, handling DB integration and production releases.\nEnsured security via middleware validation, rate limiting, SQL injection prevention, and XSS protection.",
     skills: [
-      "React Native", "Expo", "Node.js", "Express.js", "MySQL", 
-      "REST APIs", "Railway", "GitHub", "React Navigation", 
-      "Mobile UI/UX", "Agile"
+      "React.js", "React Native (Expo)", "Node.js", "Express.js",
+      "MySQL", "AWS", "Railway", "Redis", "JWT", "OAuth", "RBAC",
+      "LLM APIs", "Android", "iOS", "Agile"
     ],
   },
   {
     id: 1,
-    role: "Full Stack Intern",
-    company: "Nebraska Innovation Labs",
+    role: "Full Stack Developer",
+    company: "Nebraska Innovation Labs – Omaha, NE",
     date: "Jan 2025 – Oct 2025",
-    desc: "Built and deployed full-stack web applications using Node.js, React.js, Redux, and MySQL. Integrated Redis caching to reduce redundant DB calls and improve API response times by 40%. Implemented WebSocket-based real-time chat and live session tracking. Developed customizable admin dashboards using React Table and Tailwind CSS with role-based access control (RBAC). Created automated audit logging systems using MySQL triggers and enforced security best practices with middleware validation.",
+    desc: "Designed and developed full-stack web applications enabling end-to-end workflows for internal operational teams.\nImplemented Redis caching, reducing redundant DB queries and improving API response time by ~40%.\nBuilt real-time features using WebSockets for live session tracking and instant messaging.\nDeveloped responsive admin dashboards using React.js and Tailwind CSS with RBAC and dynamic authorization.\nDesigned audit logging using MySQL triggers to track INSERT, UPDATE, DELETE operations for compliance.\nStructured backend using modular Express.js patterns (controllers, services, models) for scalability.\nImplemented middleware validation and sanitization to prevent SQL injection and XSS vulnerabilities.",
     skills: [
-      "Node.js", "React.js", "Redux", "MySQL", "Redis", "WebSockets", 
-      "Tailwind CSS", "RBAC", "Audit Logging", ".env", "Postman"
+      "React.js", "Redux", "Node.js", "Express.js", "MySQL",
+      "Redis", "WebSockets", "Tailwind CSS", "RBAC", "Audit Logging", "Postman"
     ],
   },
   {
     id: 2,
     role: "Research Assistant",
-    company: "Northwest Missouri State University",
+    company: "Northwest Missouri State University – Maryville, MO",
     date: "Aug 2023 – Jun 2024",
-    desc: "Designed and deployed AI-powered chatbots using ReactJS, Bootstrap, and OpenAI APIs. Built intelligent AI agents capable of understanding student queries and enhancing self-paced learning. Developed backend services using Python and hosted scalable solutions on Microsoft Azure. Integrated RESTful APIs and designed mobile-responsive UI components using Flexbox and custom CSS. Documented technical specifications and created flow diagrams using Lucidchart.",
+    desc: "Designed and developed AI-powered web applications using React.js and FastAPI, enabling real-time conversational user interactions.\nBuilt backend services for AI workflows including request routing, prompt structuring, response validation, and error handling.\nIntegrated LLM APIs to implement context-aware query processing and conversational features.\nDeveloped REST APIs to enable seamless communication between frontend interfaces and backend AI services.\nDeployed and managed applications on Microsoft Azure, optimizing cloud resource usage and reducing infrastructure costs by ~15%.\nParticipated in Agile development, sprint planning, code reviews, and version control using Git.",
     skills: [
-      "React.js", "OpenAI API", "Python", "Microsoft Azure", "REST APIs",
-      "Bootstrap", "Lucidchart", "Technical Writing", "Agile"
+      "React.js", "FastAPI", "Python", "LLM APIs", "Microsoft Azure",
+      "REST APIs", "Prompt Engineering", "Agile", "Git"
     ],
   },
   {
     id: 3,
     role: "Software Developer",
-    company: "Perigord Life Science Solutions",
+    company: "Perigord Life Science Solutions – Hyderabad, India",
     date: "Aug 2021 – Mar 2023",
-    desc: "Developed and maintained responsive web pages using Angular, HTML5, CSS3, and Bootstrap. Integrated backend APIs using C# and .NET Core, validating endpoints via Postman and Swagger. Optimized SQL Server queries and stored procedures, improving data retrieval efficiency. Built dynamic dropdowns and real-time form validations. Manage sprint tasks using JIRA and supported CI/CD through Azure DevOps.",
+    desc: "Developed enterprise web application modules using Angular, HTML, CSS, and Bootstrap, improving UI responsiveness and cross-browser compatibility.\nBuilt and integrated backend services using C# and .NET Core APIs for seamless data exchange.\nOptimized complex SQL Server queries and stored procedures, improving data retrieval performance by ~30%.\nDeveloped dynamic form validations and reusable frontend components to reduce data entry errors.\nAutomated document generation processes using backend logic and conditional workflows.\nSupported Agile development cycles including bug tracking, issue resolution, and release coordination using JIRA and Azure DevOps.",
     skills: [
-      "Angular", "C#", ".NET Core", "SQL Server", "Bootstrap", 
+      "Angular", "C#", ".NET Core", "SQL Server", "Bootstrap",
       "Postman", "Swagger", "Azure DevOps", "JIRA", "HTML5", "CSS3"
     ],
   },
   {
     id: 4,
-    role: "Intern",
-    company: "Gavita Soft Web Designing Services",
+    role: "Web Developer Intern",
+    company: "Gavita Soft Web Designing Services – India",
     date: "Aug 2020 – Aug 2021",
-    desc: "Designed and maintained responsive client websites using HTML5, CSS3, and JavaScript. Managed and customized WordPress websites, including plugin integrations. Produced engaging animated explainer videos using Canva and After Effects. Optimized Google Business Profiles and coordinated social media updates for improved SEO performance.",
+    desc: "Developed and maintained responsive websites using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and mobile responsiveness.\nCustomized WordPress themes and plugins to support client-specific branding and content management requirements.\nImproved website performance and page load speed through frontend optimizations and efficient asset handling.\nAssisted in implementing SEO best practices including metadata structuring and content optimization.",
     skills: [
-      "HTML5", "CSS3", "JavaScript", "WordPress", "Canva", 
-      "After Effects", "SEO", "Social Media Marketing"
+      "HTML5", "CSS3", "JavaScript", "WordPress", "SEO", "Responsive Design"
     ],
   }
 ];
@@ -137,81 +146,125 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6sCqS4dD5qbJ3w1e2f_714_1523_4626&s", // Placeholder or generic university icon
+    img: "https://download.logo.wine/logo/Northwest_Missouri_State_University/Northwest_Missouri_State_University-Logo.wine.png",
     school: "Northwest Missouri State University",
     date: "May 2023 – Jul 2024",
     grade: "Master's Degree",
-    desc: "Master of Science in Information Systems. Focused on Business Analysis, Project Management, OOP, DBMS, and Cybersecurity.",
-    degree: "Master's Degree in Information Systems",
+    desc: "Master of Science in Information Systems. Focused on Business Analysis, Project Management, Object-Oriented Programming, Database Management Systems, and Cybersecurity.",
+    degree: "Master of Science in Information Systems",
   },
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6sCqS4dD5qbJ3w1e2f_714_1523_4626&s",
+    img: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/QIS_College_of_Engineering_and_Technology_logo.png/200px-QIS_College_of_Engineering_and_Technology_logo.png",
     school: "QIS College of Engineering & Technology",
     date: "May 2017 – Aug 2021",
     grade: "Bachelor's Degree",
-    desc: "Bachelor of Technology in Information Technology. Coursework included Data Structures, Algorithms, OOP, DBMS, OS, and Computer Networks.",
-    degree: "Bachelor's Degree in Information Technology",
+    desc: "Bachelor of Technology in Information Technology. Coursework included Data Structures, Algorithms, Object-Oriented Programming, DBMS, Operating Systems, and Computer Networks.",
+    degree: "Bachelor of Technology in Information Technology",
   },
 ];
 
 export const projects = [
   {
-    id: 1,
-    title: "HealthBot AI",
-    date: "2024",
+    id: 0,
+    title: "FindStreak – AI-Powered Job Platform",
+    date: "2025 – Present",
     description:
-      "Built an AI-powered web app that provides symptom-based wellness suggestions including causes, home remedies, rest tips, and emergency alerts. Integrated Groq’s LLaMA 3 LLMs using OpenAI-compatible API for real-time, context-aware health responses. Developed backend using FastAPI and frontend with React.",
-    image: "https://i.pinimg.com/originals/f3/7e/4a/f37e4a1a2c1a4d8c6b9d9e6e4f3a9b1c.jpg", // Placeholder
-    tags: ["FastAPI", "Python", "React.js", "Groq API", "LLMs"],
+      "Built an AI-powered job search and career platform with automated workflows, intelligent user interactions, and conversational AI. Implements smart job matching, user authentication (JWT/RBAC), and LLM-powered resume analysis and career guidance. Backend built on Node.js/Express.js with MySQL; frontend on React.js.",
+    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60",
+    tags: ["React.js", "Node.js", "MySQL", "LLM APIs", "JWT", "OpenAI"],
     category: "web app",
     github: "https://github.com/rakeshvejendla333",
-    webapp: "https://www.rakeshvejendla.com", // Placeholder
+    webapp: "https://findstreak.com",
+  },
+  {
+    id: 1,
+    title: "SplitTek – Expense Sharing App",
+    date: "2025 – Present",
+    description:
+      "Full-stack expense-sharing mobile platform (similar to Splitwise) with native apps for Android and iOS built using React Native (Expo). Features group expense tracking, real-time balance calculations, secure authentication (JWT/OAuth), biometric login, and a React (Vite) admin dashboard. Backend: Node.js/Express.js with MySQL on Railway/AWS.",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&auto=format&fit=crop&q=60",
+    tags: ["React Native", "Expo", "Node.js", "MySQL", "JWT", "Redis", "AWS", "Railway"],
+    category: "mobile app",
+    github: "https://github.com/rakeshvejendla333",
+    webapp: "https://github.com/rakeshvejendla333",
   },
   {
     id: 2,
-    title: "Split Expense App",
-    date: "2024",
+    title: "AI Code Assistant – LLM Integration Hub",
+    date: "2024 – 2025",
     description:
-      "Built a real-time web app for tracking and splitting expenses among users, inspired by Splitwise. Used Firebase for authentication and Firestore to store user and expense data. Designed responsive UI with React.js to support both Android and iOS mobile browser compatibility.",
-    image: "https://miro.medium.com/v2/resize:fit:1400/1*pOp-8e2M6s2b2T9e2Q7d1g.png", // Placeholder
-    tags: ["React.js", "Firebase", "Firestore", "Responsive Design"],
-    category: "web app",
+      "Hands-on integration hub demonstrating multi-LLM coding assistance using ChatGPT (GPT-4), Claude AI (Anthropic), Google Gemini, and open-source models via OpenAI-compatible APIs. Implemented chain-of-thought prompt engineering, context management, RAG patterns, and comparative response evaluation across AI providers. Used to accelerate full-stack development workflows.",
+    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=60",
+    tags: ["OpenAI API", "Claude AI", "Google Gemini", "LLM APIs", "Python", "Prompt Engineering", "RAG"],
+    category: "AI",
     github: "https://github.com/rakeshvejendla333",
     webapp: "https://www.rakeshvejendla.com",
   },
   {
     id: 3,
-    title: "Integrated Waste Management System",
-    date: "2022",
+    title: "HealthBot AI – Symptom Checker & Wellness Assistant",
+    date: "2024",
     description:
-      "Developed a web-based waste tracking and reporting platform for municipalities and vendors. Designed RESTful .NET APIs to log waste collection, schedules, and disposal data in MySQL Server. Included role-based login, area-based mapping, and scheduling modules.",
-    image: "https://www.shutterstock.com/image-vector/waste-management-concept-vector-illustration-260nw-1928374934.jpg", // Placeholder
-    tags: ["C#", "ASP.NET", "MySQL Code", "Swagger", "Web App"],
+      "AI-powered web app providing symptom-based wellness guidance with structured response generation. Backend built using FastAPI for request handling, validation, and AI workflow orchestration. Integrated LLM APIs (Groq LLaMA 3) for context-aware query understanding and response generation. Designed responsive React.js frontend for dynamic rendering of AI-generated health insights.",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&auto=format&fit=crop&q=60",
+    tags: ["FastAPI", "Python", "React.js", "LLM APIs", "Groq", "REST APIs"],
     category: "web app",
     github: "https://github.com/rakeshvejendla333",
     webapp: "https://www.rakeshvejendla.com",
   },
   {
     id: 4,
-    title: "Real-Time Facial Recognition",
-    date: "2021",
+    title: "Real-Time Facial Recognition with Emoji Detection",
+    date: "2023",
     description:
-      "Built a facial recognition system that detects facial features and maps them to corresponding emoji expressions in real time. Used OpenCV for image processing and Python for face detection, emotion classification, and database storage with MySQL.",
-    image: "https://miro.medium.com/v2/resize:fit:1400/1*c_fiB-YgbnMl6nntYGBMHQ.jpeg", // Placeholder
-    tags: ["Python", "OpenCV", "MySQL", "Machine Learning"],
+      "Computer vision application detecting facial features in real time and mapping expressions to contextual emoji representations. Implemented image processing pipelines using OpenCV for face detection and emotion classification. Stored detection metadata in MySQL for structured logging and analysis. Integrated prototype with a conversational interface to demonstrate interactive AI capabilities.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=60",
+    tags: ["Python", "OpenCV", "MySQL", "Machine Learning", "Computer Vision"],
     category: "machine learning",
     github: "https://github.com/rakeshvejendla333",
     webapp: "https://github.com/rakeshvejendla333",
   },
+  {
+    id: 5,
+    title: "Integrated Waste Management System (IWMS)",
+    date: "2022",
+    description:
+      "Web-based waste tracking system for municipalities and vendors with role-based access and scheduling modules. Developed RESTful .NET Core APIs to manage waste collection, tracking, and reporting workflows in MySQL Server. Included area-based mapping, scheduling, and compliance reporting dashboards.",
+    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&auto=format&fit=crop&q=60",
+    tags: ["C#", "ASP.NET", "MySQL", "Swagger", "REST APIs", "RBAC"],
+    category: "web app",
+    github: "https://github.com/rakeshvejendla333",
+    webapp: "https://www.rakeshvejendla.com",
+  },
+];
+
+export const certifications = [
+  {
+    id: 0,
+    title: "AWS Certified Solutions Architect – Associate",
+    issuer: "Amazon Web Services",
+    date: "2024",
+    image: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
+    link: "https://aws.amazon.com/certification/",
+  },
+  {
+    id: 1,
+    title: "Foundational C#",
+    issuer: "Microsoft",
+    date: "2023",
+    image: "https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg",
+    link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+  },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started Bachelor's in IT" },
-  { year: 2020, text: "Intern at Gavita Soft" },
-  { year: 2021, text: "Graduated B.Tech, Joined Perigord" },
-  { year: 2023, text: "Started Master's at Northwest Missouri State" },
-  { year: 2024, text: "Graduated Master's, Research Assistant" },
-  { year: 2025, text: "Full Stack Intern at Nebraska Innovation Labs" },
-  { year: 2025, text: "Started as Senior Full Stack Developer at Tek Advo Inc" },
+  { year: 2017, text: "Started Bachelor's in IT at QIS College" },
+  { year: 2020, text: "Web Developer Intern at Gavita Soft" },
+  { year: 2021, text: "Graduated B.Tech — Joined Perigord as Software Developer" },
+  { year: 2023, text: "Started Master's at Northwest Missouri State University" },
+  { year: 2023, text: "Became Research Assistant — Built AI-powered applications" },
+  { year: 2024, text: "Graduated M.S. — AWS Certified Solutions Architect" },
+  { year: 2025, text: "Full Stack Developer at Nebraska Innovation Labs" },
+  { year: 2025, text: "AI Full Stack Engineer at Tek Advo Inc — SplitTek & FindStreak" },
 ];

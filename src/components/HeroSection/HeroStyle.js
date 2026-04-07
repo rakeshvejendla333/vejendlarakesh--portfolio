@@ -157,69 +157,57 @@ export const SubTitle = styled.div`
 `;
 
 export const ResumeButton = styled.a`
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   text-decoration: none;
-  width: 95%;
-  max-width: 300px;
-  text-align: center;
-  padding: 16px 0;
-  color: ${({ theme }) => theme.white};
-  border-radius: 20px;
+  width: fit-content;
+  padding: 12px 28px;
+  color: white;
+  border-radius: 50px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
-  transition: all 0.2s ease-in-out !important;
-  background: hsla(271, 100%, 50%, 1);
+  letter-spacing: 0.3px;
+  margin-top: 8px;
+  transition: all 0.25s ease-in-out;
   background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  box-shadow: 20px 20px 60px #1F2634, -20px -20px 60px #1F2634;
+  box-shadow: 0 4px 18px rgba(133, 76, 230, 0.4);
   &:hover {
-    transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow: 20px 20px 60px #1F2634;
-    filter: brightness(1);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(133, 76, 230, 0.55);
   }
   @media (max-width: 640px) {
-    padding: 12px 0;
-    font-size: 18px;
-  }
-`;
-
-export const ReadMoreButton = styled.button`
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: #45a049;
+    padding: 10px 24px;
+    font-size: 14px;
   }
 `;
 
 export const SocialMediaIcons = styled.div`
   display: flex;
-  margin-top: 1rem;
-  gap: 1rem;
+  margin-top: 1.2rem;
+  gap: 12px;
+  align-items: center;
 `;
 
 export const SocialMediaIcon = styled.a`
-  display: inline-block;
-  font-size: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  font-size: 1.15rem;
   color: ${({ theme }) => theme.text_primary};
-  transition: color 0.2s ease-in-out;
-
+  border: 1.5px solid ${({ theme }) => theme.text_secondary + '40'};
+  background: ${({ theme }) => theme.card};
+  transition: all 0.22s ease-in-out;
   &:hover {
     color: ${({ theme }) => theme.primary};
+    border-color: ${({ theme }) => theme.primary};
+    background: ${({ theme }) => theme.primary + '18'};
+    transform: translateY(-3px);
+    box-shadow: 0 4px 14px ${({ theme }) => theme.primary + '40'};
   }
 `;
