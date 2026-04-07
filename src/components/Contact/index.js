@@ -257,7 +257,7 @@ const Contact = () => {
 
     emailjs.sendForm(
       'service_52mssd1',   
-      'template_fvk2m7e',  
+      'template_fvvfnl8',  
       form.current,
       'mHyb3ceFuuUH1qZ_m'      
     ).then((result) => {
@@ -318,19 +318,19 @@ const Contact = () => {
             <FormTitle>Send a Message ✉️</FormTitle>
             <Input
               type="text"
-              name="from_name"
+              name="name"
               placeholder="Your Name"
               required
             />
             <Input
               type="email"
-              name="from_email"
+              name="email"
               placeholder="Your Email"
               required
             />
             <Input
               type="text"
-              name="subject"
+              name="title"
               placeholder="Subject (e.g. Job Opportunity)"
             />
             <TextArea
