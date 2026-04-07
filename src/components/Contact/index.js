@@ -211,10 +211,16 @@ const SendButton = styled.button`
 `;
 
 const StatusMsg = styled.div`
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
-  color: ${({ success }) => success ? '#22c55e' : '#ef4444'};
-  font-weight: 500;
+  color: ${({ success }) => success ? '#22c55e' : '#ff4d4d'};
+  font-weight: 600;
+  background: ${({ success, theme }) => success ? 'rgba(34, 197, 94, 0.1)' : 'rgba(255, 77, 77, 0.1)'};
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 4px;
+  z-index: 100;
+  position: relative;
 `;
 
 const ResumeButton = styled.a`
@@ -249,16 +255,17 @@ const Contact = () => {
     setSending(true);
     setStatus(null);
 
-    // Replace with your EmailJS service/template IDs to activate
     emailjs.sendForm(
-      'service_52mssd1',   // Replace with your EmailJS service ID
-      'template_fvk2m7e',  // Replace with your EmailJS template ID
+      'service_52mssd1',   
+      'template_fvk2m7e',  
       form.current,
-      'mHyb3ceFuuUH1qZ_m'      // replace with your EmailJS public key
-    ).then(() => {
+      'mHyb3ceFuuUH1qZ_m'      
+    ).then((result) => {
+      console.log('SUCCESS!', result.text);
       setStatus('success');
       form.current.reset();
-    }).catch(() => {
+    }).catch((error) => {
+      console.error('FAILED...', error);
       setStatus('error');
     }).finally(() => {
       setSending(false);
@@ -311,19 +318,19 @@ const Contact = () => {
             <FormTitle>Send a Message ✉️</FormTitle>
             <Input
               type="text"
-              name="name"
+              name="from_name"
               placeholder="Your Name"
               required
             />
             <Input
               type="email"
-              name="email"
+              name="from_email"
               placeholder="Your Email"
               required
             />
             <Input
               type="text"
-              name="title"
+              name="subject"
               placeholder="Subject (e.g. Job Opportunity)"
             />
             <TextArea
@@ -336,10 +343,10 @@ const Contact = () => {
               {sending ? 'Sending...' : 'Send Message'}
             </SendButton>
             {status === 'success' && (
-              <StatusMsg success>✓ Message sent! I'll get back to you soon.</StatusMsg>
+              <StatusMsg success>✓ Message sent successfully!</StatusMsg>
             )}
             {status === 'error' && (
-              <StatusMsg>✗ Something went wrong. Please email me directly.</StatusMsg>
+              <StatusMsg>✗ Something went wrong. Email me directly.</StatusMsg>
             )}
           </FormCard>
         </Right>
